@@ -57,6 +57,8 @@ This project includes a wide variety of SQL query types, covering most of the cr
 - **DDL (Data Definition Language)**
   
 - **DML (Data Manipulation Language)**
+
+- **DQL (Data Query Language)**
   
 - **Aggregate Functions**
 
