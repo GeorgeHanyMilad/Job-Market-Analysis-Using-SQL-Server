@@ -7,35 +7,38 @@
 ## 📌 Overview
 
 This project is a **SQL-based job market analysis** developed using Microsoft SQL Server.  
-It aims to simulate a real-world scenario where job data is stored, managed, and analyzed using pure SQL.  
-The dataset includes job listings, required skills, job sources, and notes about job applications.
+It simulates a real-world scenario where job data is stored, managed, and analyzed using pure SQL.  
+The dataset includes job listings, companies, job types, locations, experience levels, and required skills — all crafted to reflect the Egyptian job market.
 
 > ⚠️ **Note:** The entire database and dataset were built from scratch manually.  
 > No external datasets were used — all job listings, skills, and associated data were **custom-designed as fictional but realistic data** to mimic a real job market environment.
 
-The project was built entirely using structured query language (SQL) and focuses on **database design, data manipulation, and analytical querying** to extract valuable insights from the job market in Egypt.
+The project focuses on **database design, data manipulation, and analytical querying** to extract valuable insights from job trends, skill demand, and salary patterns across Egypt.
 
 ---
 
 ## 🎯 Project Goals
 
-- Create a structured relational database from scratch using DDL.
+- Build a structured relational database from scratch using DDL.
 - Insert realistic and diverse job market data using DML.
-- Apply powerful SQL queries to analyze job trends, salary patterns, skill demand, and more.
-- Develop hands-on SQL skills through real-world use cases.
+- Use SQL queries to uncover job trends, salary categories, and skill demand.
+- Categorize salaries using `CASE` statements.
+- Practice SQL interview-style questions and real-world scenarios.
+- Strengthen SQL Server skills with hands-on implementation.
 
 ---
 
 ## ✅ Key Features
 
 - **Realistic Job Data:** Includes job titles, companies, locations, types, salaries, categories, experience levels, and required skills.
-- **Multi-Table Structure:** Uses normalized tables with relationships to simulate a real job board database.
+- **Multi-Table Structure:** Uses normalized tables with foreign keys to simulate a real job board database.
 - **Insightful SQL Queries:**  
   - Identify the most in-demand skills  
   - Compare average salaries by city or category  
   - Detect top hiring companies  
-  - Filter jobs based on job type, skillset, or experience  
-  - Count postings over time to identify trends
+  - Filter jobs based on job type, experience, or keywords  
+  - Count job postings over time  
+  - Rank jobs using `RANK()` and categorize salaries using `CASE`
 
 ---
 
@@ -52,43 +55,53 @@ The project was built entirely using structured query language (SQL) and focuses
 This project includes a wide variety of SQL query types, covering most of the critical features a Data Analyst or SQL Developer should master:
 
 - **DDL (Data Definition Language):**
-  - `CREATE`, `ALTER`, `DROP` for creating and managing the schema and structure.
-
+  - `CREATE`, `ALTER` for managing schema structure.
+  
 - **DML (Data Manipulation Language):**
-  - `INSERT`, `UPDATE`, `DELETE`, `TRUNCATE` for manipulating the data inside the tables.
-
+  - `INSERT`, `UPDATE`, `DELETE`  for working with table data.
+  
 - **Aggregate Functions:**
-  - `COUNT()`, `AVG()`, `MAX()`, `MIN()` used to summarize insights like salary averages and job counts.
+  - `COUNT()`, `AVG()`, `MAX()`, `MIN()` for summarizing data.
 
 - **Window Functions:**
-  - `RANK()` used to rank jobs by salary within each category.
+  - `RANK()` for ranking salaries by experience levels.
 
 - **Joins (INNER JOIN):**
-  - To connect jobs with skills and analyze required qualifications.
+  - To relate jobs with companies, locations, and skills.
 
 - **Subqueries:**
-  - Nested queries used for filtering jobs by multiple skills or other dynamic conditions.
+  - Used for filtering jobs dynamically (e.g., by skill count or salary thresholds).
 
 - **Filtering & Pattern Matching:**
-  - Using `LIKE`, `IN`, `WHERE`, and `HAVING` clauses to implement specific business logic.
+  - `WHERE`, `LIKE`, `IN`, `HAVING` to answer specific business questions.
 
 - **Grouping & Ordering:**
-  - Using `GROUP BY` and `ORDER BY` for sorting and organizing results meaningfully.
+  - `GROUP BY`, `ORDER BY` for structured result analysis.
 
-- **Date Functions & Formatting:**
-  - `FORMAT()`, `GETDATE()` used to analyze posting trends over time.
+- **Date Functions:**
+  - `FORMAT()`, `GETDATE()` to examine posting trends by month.
 
-- **Cleanup & Maintenance Queries:**
-  - Including `TRUNCATE`, `DROP`, and `DELETE` queries to manage the database during testing.
+- **Conditional Logic:**
+  - `CASE` statements to categorize salary levels (Low, Medium, High).
 
 ---
 
 ## 💡 Benefits
 
-- Strengthens your SQL skills using real-world datasets.
-- Prepares you for **SQL interviews** through practical query practice.
-- Helps you understand how to **design and analyze** relational databases.
-- Valuable addition to your **portfolio** as a Data Analyst or aspiring SQL developer.
+- Strengthens SQL skills through hands-on application and scenario-based questions.
+- Prepares for real-world **data analyst** and **BI roles**.
+- Builds familiarity with **SQL interview patterns**.
+- Adds a practical and visual project to your **portfolio**.
+- Demonstrates your ability to design, query, and analyze a relational database.
+
+---
+
+## 📁 Project Structure
+
+- `DDL Queries.sql` – Table creation and schema design  
+- `DML Queries.sql` – Manual data insertion  
+- `Analysis Queries.sql` – SQL queries for insights and reporting  
+- `Data Profiling.sql` – Initial profiling to understand the structure and quality of inserted data
 
 ---
 
