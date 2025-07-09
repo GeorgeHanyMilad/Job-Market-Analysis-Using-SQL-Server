@@ -32,7 +32,8 @@ The project focuses on **database design, data manipulation, and analytical quer
 
 - **Realistic Job Data:** Includes job titles, companies, locations, types, salaries, categories, experience levels, and required skills.
 - **Multi-Table Structure:** Uses normalized tables with foreign keys to simulate a real job board database.
-- **Insightful SQL Queries:**  
+- **Insightful SQL Queries:**
+  
   - Identify the most in-demand skills  
   - Compare average salaries by city or category  
   - Detect top hiring companies  
