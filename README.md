@@ -54,35 +54,25 @@ The project focuses on **database design, data manipulation, and analytical quer
 
 This project includes a wide variety of SQL query types, covering most of the critical features a Data Analyst or SQL Developer should master:
 
-- **DDL (Data Definition Language):**
-  - `CREATE`, `ALTER` for managing schema structure.
+- **DDL (Data Definition Language)**
   
-- **DML (Data Manipulation Language):**
-  - `INSERT`, `UPDATE`, `DELETE`  for working with table data.
+- **DML (Data Manipulation Language)**
   
-- **Aggregate Functions:**
-  - `COUNT()`, `AVG()`, `MAX()`, `MIN()` for summarizing data.
+- **Aggregate Functions**
 
-- **Window Functions:**
-  - `RANK()` for ranking salaries by experience levels.
+- **Window Functions**
 
-- **Joins (INNER JOIN):**
-  - To relate jobs with companies, locations, and skills.
+- **Joins**
 
-- **Subqueries:**
-  - Used for filtering jobs dynamically (e.g., by skill count or salary thresholds).
+- **Subqueries**
 
-- **Filtering & Pattern Matching:**
-  - `WHERE`, `LIKE`, `IN`, `HAVING` to answer specific business questions.
+- **Filtering & Pattern Matching**
 
-- **Grouping & Ordering:**
-  - `GROUP BY`, `ORDER BY` for structured result analysis.
+- **Grouping & Ordering**
 
-- **Date Functions:**
-  - `FORMAT()`, `GETDATE()` to examine posting trends by month.
+- **Date Functions**
 
-- **Conditional Logic:**
-  - `CASE` statements to categorize salary levels (Low, Medium, High).
+- **Conditional Logic**
 
 ---
 
