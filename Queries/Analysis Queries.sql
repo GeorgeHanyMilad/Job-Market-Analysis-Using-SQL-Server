@@ -117,3 +117,14 @@ SELECT
     END AS SalaryCategory
 FROM Jobs
 ORDER BY Salary DESC;
+
+-- What is the distribution of job types across different experience levels?
+SELECT 
+    E.LevelName,
+    JT.TypeName,
+    COUNT(J.JobID) AS JobCount
+FROM Jobs J
+JOIN ExperienceLevels E ON J.ExperienceLevelID = E.LevelID
+JOIN JobTypes JT ON J.JobTypeID = JT.JobTypeID
+GROUP BY E.LevelName, JT.TypeName
+ORDER BY E.LevelName, JobCount DESC;
