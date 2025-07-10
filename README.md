@@ -51,7 +51,7 @@ The project focuses on **database design, data manipulation, and analytical quer
 
 ---
 
-## 🧩 Query Types Used
+## 🧩 Concepts and Techniques
 
 This project includes a wide variety of SQL query types, covering most of the critical features a Data Analyst or SQL Developer should master:
 
